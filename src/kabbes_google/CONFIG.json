@@ -21,6 +21,7 @@
         }
     },
     "regenerate_token": false,
+    "SCOPES": [],
     "service_name": null,
     "version": "v1"
 }
