@@ -1,1 +1,7 @@
-print ('Runnning main for kabbes_google')
+import kabbes_google
+c = kabbes_google.Client(
+    
+    dict={'service_name':'forms'}
+    
+)
+c.cfg.print_atts()

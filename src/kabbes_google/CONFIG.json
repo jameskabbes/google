@@ -1,0 +1,26 @@
+{
+    "credentials":{
+        "!Dir": "{{cwd.Dir}}"
+    },
+    "client_secrets.!Path": {
+        "$ref": "{R{credentials.Dir}R}",
+        "method":{
+            "name": "join_Path",
+            "kwargs":{
+                "path": "client_secrets.json"
+            }
+        }
+    },
+    "token.!Path":{
+        "$ref": "{R{credentials.Dir}R}",
+        "method":{
+            "name": "join_Path",
+            "kwargs":{
+                "path": "token.json"
+            }
+        }
+    },
+    "regenerate_token": false,
+    "service_name": null,
+    "version": "v1"
+}
