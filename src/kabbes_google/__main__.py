@@ -1,7 +1,3 @@
 import kabbes_google
-c = kabbes_google.Client(
-    
-    dict={'service_name':'forms'}
-    
-)
+c = kabbes_google.Client()
 c.cfg.print_atts()
